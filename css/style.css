@@ -37,6 +37,12 @@ body {
     margin: 0 auto;
 }
 
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+
 .page-header {
     background-color: var(--accent-color);
 }
@@ -88,7 +94,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:#212121
-    
+    display: flex;
 }
 
 .std-contacts .link {
