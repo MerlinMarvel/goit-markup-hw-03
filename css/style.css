@@ -41,7 +41,8 @@ body {
 .title-section,
 .sub-section,
 .text-list-section,
-.staff-section {
+.staff-section,
+.work-section {
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -236,6 +237,12 @@ padding-bottom: 94px;
     color: #757575;
 }
 
+.sub-section,
+.text-list-section,
+.work-section {
+    background-color: #FFFFFF;
+}
+
 .subtitle {
     font-weight: 700;
     font-size: 36px;
@@ -292,6 +299,7 @@ padding-bottom: 94px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    
 }
 
 .works-list-desc {
@@ -310,6 +318,8 @@ padding-bottom: 94px;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    text-align: center;
+    border-radius: 4px;
 }
 
 .projects-button:hover,
@@ -322,4 +332,34 @@ padding-bottom: 94px;
 .page-footer {
     background-color: #2F303A;
     padding: 60px 0;
+}
+
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.button-list li+li {
+    margin-left: 8px;
+}
+
+.works-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.works-list li {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-top: 30px;
+   
+}
+
+.works-list img {
+    width: 100%;
 }
