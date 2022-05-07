@@ -1,4 +1,6 @@
-:root {
+@ -1,
+391+0,
+0 @@ :root {
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #FFFFFF;
@@ -17,7 +19,7 @@ h6 {
     padding: 0;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
@@ -34,15 +36,15 @@ body {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
 .text-list-section,
 .staff-section,
 .work-section {
-padding-top: 94px;
-padding-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .title-section {
@@ -61,7 +63,7 @@ padding-bottom: 94px;
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color:#2196F3;
+    color: #2196F3;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -72,37 +74,37 @@ padding-bottom: 94px;
 
 .logo-black {
     font-family: 'Raleway', sans-serif;
-    color:#212121;
+    color: #212121;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-  }
-
- .logo-white {
-     font-family: 'Raleway', sans-serif;
-     color: #FFFFFF;
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.2;
-     letter-spacing: 0.03em;
- }
-
-
-
-
- .site-nav,
- .std-contacts,
- .std-contacts-footer,
- .text-list,
- .img-list,
- .staff-list,
- .button-list,
- .works-list {
-    list-style-type: none; 
 }
 
-.page-header > .container {
+.logo-white {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+.site-nav,
+.std-contacts,
+.std-contacts-footer,
+.text-list,
+.img-list,
+.staff-list,
+.button-list,
+.works-list {
+    list-style-type: none;
+}
+
+.page-header>.container {
     display: flex;
     align-items: center;
 }
@@ -111,6 +113,7 @@ padding-bottom: 94px;
     display: flex;
     align-items: center;
 }
+
 .std-contacts {
     display: flex;
     margin-left: auto;
@@ -136,7 +139,7 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:#212121
+    color: #212121
 }
 
 .std-contacts .link {
@@ -159,6 +162,7 @@ padding-bottom: 94px;
 .std-contacts-footer {
     margin-top: 20px;
 }
+
 .std-contacts-footer li {
     margin-top: 9px;
 }
@@ -169,7 +173,8 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    ;
 }
 
 .std-contacts-footer .address {
@@ -262,7 +267,7 @@ padding-bottom: 94px;
 }
 
 .staff-section {
-    background-color:#F5F4FA;
+    background-color: #F5F4FA;
 }
 
 .staff-list {
@@ -278,8 +283,8 @@ padding-bottom: 94px;
     flex: 1 1 0px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -301,7 +306,7 @@ padding-bottom: 94px;
     text-align: center;
 }
 
-.staff-div{
+.staff-div {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -312,7 +317,7 @@ padding-bottom: 94px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    
+
 }
 
 .works-list-desc {
@@ -363,7 +368,7 @@ padding-bottom: 94px;
     margin-left: 8px;
 }
 
-.works-list{
+.works-list {
     display: flex;
     flex-wrap: wrap;
 }
@@ -378,7 +383,7 @@ padding-bottom: 94px;
 
 }
 
-.works-list li:nth-child(3n){
+.works-list li:nth-child(3n) {
     margin-right: 0;
 }
 
