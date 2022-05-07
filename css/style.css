@@ -31,15 +31,13 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
-.section,
-.title-section,
-.sub-section,
+
 .text-list-section,
 .staff-section,
 .work-section {
@@ -47,6 +45,14 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 
+.title-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.sub-section {
+    padding-bottom: 94px;
+}
 
 .page-header {
     background-color: var(--accent-color);
@@ -160,7 +166,7 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.6);;
 }
 
 .std-contacts-footer .address {
@@ -199,8 +205,9 @@ padding-bottom: 94px;
     border-radius: 4px;
 }
 
-.text-list-section {
-    background-color: #E5E5E5;
+.text-list-section,
+.sub-section {
+    background-color: #FFFFFF;
 }
 
 .text-list {
@@ -237,8 +244,6 @@ padding-bottom: 94px;
     color: #757575;
 }
 
-.sub-section,
-.text-list-section,
 .work-section {
     background-color: #FFFFFF;
 }
@@ -294,6 +299,12 @@ padding-bottom: 94px;
     margin-bottom: 30px;
 }
 
+.staff-list-css {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 .works-list-title {
     font-weight: 700;
     font-size: 18px;
@@ -320,6 +331,10 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     text-align: center;
     border-radius: 4px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
 }
 
 .projects-button:hover,
@@ -338,7 +353,7 @@ padding-bottom: 94px;
 .button-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .button-list li+li {
@@ -348,18 +363,26 @@ padding-bottom: 94px;
 .works-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
 }
 
 .works-list li {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
-    margin-top: 30px;
-   
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 370px;
+
+}
+
+.works-list li:nth-child(3n){
+    margin-right: 0;
 }
 
 .works-list img {
     width: 100%;
+}
+
+.works-list-css {
+    padding: 20px 24px 20px 24px;
 }
